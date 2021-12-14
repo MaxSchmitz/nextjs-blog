@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi, I'm <b>Maux</b>. I'm a farmer by day and farmer by night. 
+        <p>Hi, I'm <b>Max</b>. I'm a farmer by day and farmer by night. 
           You can contact me on <a href="https://discordapp.com/users/134165463222583299/">discord</a></p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
