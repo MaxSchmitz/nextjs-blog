@@ -44,6 +44,36 @@ In another terminal
 
 	npm run dev
 
+Open up the page at http://localhost:3000/ and test by reading from your local hardhat blockchain and writing to the blockchain. If you get an error from metamask that nonce is too high you need to go to metamask setings > advanced > reset account.
+
+We now have a starter Dapp running locally that can read and write from our local blockchain.
+
+Next steps to make our dapp a little more useful... 
+
+We can deploy to avax fuji testnet
+Update our dapp to do something a little more useful
+
+# Deploy to avax fuji testnet with remix
+
+Need to learn how to set up a new network in hardhat.config.js 
+
+So for now just deployed contract to fuji testnet with remix. Create the Greeter.sol contract in remix. Then set the environment to injected web3. Compile the contract. The deploy the contract.
+
+Copy the contract address to NEXT_PUBLIC_GREETER_ADDRESS and chain id to .env
+
+Now restart the frontend
+
+	npm run dev
+
+Test that the contract works yay!
+
+Next up lets edit hardhat.config to make deploying easier with hardhat.
+
+# Deploy to avax fuji testnet with hardhat
+
+
+
+
 # Connect Metamask to Hardhat
 
 Change network to localhost://8545

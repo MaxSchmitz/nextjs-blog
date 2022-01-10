@@ -13,7 +13,7 @@ Dapp tutorials:
 - [AVAX tutorials](https://docs.avax.network/build/tutorials/tutorials-contest/)
 - [avax dao](https://docs.avax.network/build/tutorials/tutorials-contest/avalanche-DAO/)
 - [start dapp](https://github.com/tomhirst/solidity-nextjs-starter)
-
+- [Build a DApp on Avalanche: A complete guide](https://blog.logrocket.com/build-dapp-avalanche-complete-guide/)
 
 chainlink:
 
